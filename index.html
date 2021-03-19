@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Finder</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-primary mb-3">
+      <div class="container">
+        <a href="#" class="navbar-brand">Github Finder</a>
+      </div>
+    </nav>
+    <div class="container search-container">
+      <div class="search card-body">
+        <h1>Search Github Users</h1>
+        <p class="lead">Enter a username for gitting user profile & repos</p>
+        <input
+          type="search"
+          name=""
+          id="usersearch"
+          class="form-control"
+          placeholder="Enter Github username"
+        />
+      </div>
+      <br />
+      <p id="profile"></p>
+    </div>
+    <footer class="mt-5 p-3 text-center bg-light">
+      Github &copy;
+      <a target="blank" href="https://github.com/SonetAD">SonetAD</a>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="github.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
